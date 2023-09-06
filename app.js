@@ -5,7 +5,7 @@ const fs = require('fs');
 const mongoose = require("mongoose");
 const bodyparsar = require ("body-parser",{UserNewUrlparsar:true});
 mongoose.connect("mongodb+srv://nithin:nani@123@cluster0.faddelu.mongodb.net/portfolio?retryWrites=true&w=majority");
-const host=127.0.0.1;
+const host='127.0.0.1';
 const port = 40;
 
 var details = new mongoose.Schema({

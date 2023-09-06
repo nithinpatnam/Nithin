@@ -1,0 +1,76 @@
+nav {
+    /* border: 2px solid white; */
+    /* margin-left: 100px; */
+    /* text-decoration: none; */
+    /* background-color: black; */
+}
+
+nav:hover {
+    cursor: pointer;
+    text-decoration: none;
+    /* list-style: none; */
+
+}
+
+nav ul {
+    /* text-decoration: none; */
+    background-color: black;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 100px;
+    font-size: 30px;
+    color: rgb(4, 4, 4);
+    font-weight: bold;
+    /* background-color: black; */
+    /* list-style: none; */
+    /* text-decoration: none; */
+    /* flex-direction: row; */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    /* background-color: black; */
+}
+.para{
+    margin-left: 590px;
+}
+.heading3{
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+.cont{
+    display: flex;
+    
+}
+.box1 img{
+    height: 650px;
+    width: 400px;
+    /* margin-left: 20px; */
+}
+.dog{
+    margin-left: 350px;
+}
+.details h1{
+    margin-left: 220px;
+
+}
+.credentials{
+    margin-left: 80px;
+}
+.credentials h3{
+    font-size: 25px;
+}
+.credentials input{
+    height: 25px;
+    width: 500px;
+}
+footer{
+    /* bottom: 30px; */
+    text-align: center;
+    background-color: black;
+    color: white;
+}

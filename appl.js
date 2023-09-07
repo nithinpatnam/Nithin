@@ -1,12 +1,12 @@
 const host='127.0.0.1';
-const port = 40;
+const port = 80;
 const express = require("express");
 const path = require("path");
 const app = express();
 const fs = require('fs');
 const mongoose = require("mongoose");
-const bodyparsar = require ("body-parser",{UserNewUrlparsar:true});
-mongoose.connect("mongodb+srv://nithin:nani@123@cluster0.faddelu.mongodb.net/portfolio?retryWrites=true&w=majority");
+const bodyparsar = require ("body-parser",{UserNewUrlparsar:true});///,{UserNewUrlparsar:true}
+mongoose.connect("mongodb+srv://nithin:nithin@cluster0.faddelu.mongodb.net/portfolio?retryWrites=true&w=majority");
 
 
 var details = new mongoose.Schema({
@@ -25,6 +25,7 @@ app.use('/images',express.static('images'))
 app.use('/views',express.static('views'))
 
 app.use (express.urlencoded({extended:true}));
+// app.use(express.urlencoded())
 
 
 app.get('/',(req,res)=>{

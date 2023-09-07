@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../portfolio/CSS/contact.css">
+    <link rel="stylesheet" href="../views/contact.css">
     <title>Your Name - Portfolio</title>
 </head>
 
 <body>
     <div class="nav">
         <ul>
-            <a href="index.html">
+            <a href="/">
                 <li>Home</li>
             </a>
-            <a href="/">
-                <li>About me</li>
+            <a href="/About">
+                <li>About Me</li>
             </a>
-            <a href="project.html">
+            <a href="/projects">
                 <li>Projects</li>
             </a>
-            <a href="/Contact">
+            <a href="/contact">
                 <li>Contact us</li>
             </a>
         </ul>
@@ -28,7 +28,7 @@
 
     </div>
     <div class="cont">
-        <div class="box1"><img src="../portfolio/images/Handshake 2.jpg" alt=""></div>
+        <div class="box1"><img src="../images/Handshake 2.jpg" alt=""></div>
 
         <div class="box2">
             <div class="dog">
@@ -37,19 +37,31 @@
             <div class="details">
                 <h1> CAll ME: 863-9137-803 | E-mail </h1>
             </div>
-            <div class="credentials">
+            <form  method="post">
                 <h3> First Name</h3>
-                <input type="text" placeholder="">
+                <!-- <label for="fn">First Name</label> -->
+                <input type="text" placeholder="" name="fn" id="Firstname" name="Firstname">
                 <h3> Last Name</h3>
-                <input type="text" placeholder="">
+                <input type="text" placeholder="" id="Lastname" name="Lastname">
                 <h3> Email Me</h3>
-                <input type="text" placeholder="">
+                <input type="text" placeholder="" id="Email" name="Email">
                 <h3> Subject</h3>
-                <input type="text" placeholder="">
+                <input type="text" placeholder="" id="Subject" name="Subject">
                 <h3> Messege</h3>
-                <input type="text" placeholder="">
+                <input type="text" placeholder="" id="Messege" name="Messege">
+                <br>
+                <br>
+                <!-- <input type="button" value="Submit Now"> -->
+                <button>Submit now</button>
 
-            </div>
+                
+            </form>
+            <!-- <div class="btn3">
+                
+            </div> -->
+            
+            
+            
 
         </div>
     </div>
